@@ -139,8 +139,29 @@ option {
     background-size: cover;
 }
 
+#right-image-float {
+    position: relative;
+    width: 90%;
+    border: 3px dotted green;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
+    height:70%; 
+    /* MAKE ANOTHER DIV DO MAXHEIGHT MAX WIDTH */
+}
 
+#text-SW {
+    position: absolute;
+    display:inline-block;
+    bottom: 5px;
+    left: 61%;
+    
+}
+
+#text-SW span {
+    background-color: green;
+}
 /* 
 .custom-cursor {
     position: fixed;
